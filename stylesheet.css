@@ -1,0 +1,9 @@
+body {
+	background-color:#C0C0C0
+}
+#navbar {
+	position: fixed;
+	top:25px;
+	left:50%;
+	margin-left:100px;
+}
