@@ -1,15 +1,21 @@
 body {
 	background-color:#C0C0C0;
 }
-#navbar {
-	position: fixed;
-	top:25px;
-	left:50%;
-	margin-left:100px;
+#heading{
+	font-size: 45px;
+}
+#facts {
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#navbar li {
+	display: inline-block;
+	margin-left: 20px;
 }
 h2 {
 	font-family: sans-serif;
 }
 p {
-	font-family
+	font-family: sans-serif;
 }
