@@ -3,6 +3,12 @@
 		<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 			<title>Welcome to all about Me!</title>
+		<script type="text/javascript">
+			function sendMail() {
+				<!--enter email at james@email.com-->
+				window.open('mailto:james@email.com?subject=I\'m contacting you. &body=You\'ve been contacted.');
+			}
+		</script>
 		</head>
 		<body style="background-color: #6699CC">
 		<h1 id="heading">James Mistalski</h1>
@@ -18,9 +24,9 @@
 
 		<div id="navbar">
 			<ul>
-				<li>Home</li>
-				<li>About Me</li>
-				<li>Contact</li>
+				<li><a href="http://www.homedepot.com">Home</a></li>
+				<li><a href="www.linkedin.com/pub/james-mistalski/2/96b/20">About Me</a></li>
+				<li><a onclick="sendMail()">Contact</a></li>
 			</ul>
 		</div>
 		</body>
