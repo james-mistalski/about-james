@@ -41,14 +41,6 @@ h2 {/*text centered*/
 	font-family: sans-serif;
 	text-align: center;
 }
-#outputDiv {
-	background-color: yellow;
-	border: 2px solid #c0c0c0;
-	margin-left: 800px;
-	margin-right: 800px;
-	text-align: center;
-	display: none;
-}
 #goldA {
 	display: block;
 	margin-top: 375px;
