@@ -6,10 +6,8 @@
 			<script type="text/javascript">
 				var myWin;
 				function sendMail() {
-					<!--found this on stackoverflow-->
-					<!--insert your email in place of james@email.com-->
-					myWin = window.open('mailto:james@email.com');
-					myWin.close();
+					myWin = window.open("","_blank", "height: 400, width:400");
+					myWin.document.write("Email me: james.mistalski@gmail.com");
 				}
 			</script>
 		</head>
@@ -17,7 +15,7 @@
 		<!--rearranged some things on the page and did some overall styling-->
 		<div id="headingDiv"><h1 id="heading">James Mistalski</h1></div>
 		<!--created and styled/ wanted to emphasize your name-->
-		<p style="color:darkolivegreen; font-size: 30px">Fun Facts:</p>
+		<p style="color:darkolivegreen; font-size: 30px; text-align: center">Fun Facts:</p>
 		<ul id="facts"><!-- Did some text styling and increased its size-->
 			<li>Born in Detroit, MI</li>
 			<li>Parents are official Goodwill Ambassadors to Aruba and the Kingdom of the Netherlands</li>
@@ -28,14 +26,14 @@
 		<div id="imgDiv"><img height=300px width=300px src="PHP%20Storm%20first%20photo%20to%20use.jpg" /></div>
 
 		<div id="navbar"><!--moved navbar down to the bottom and made it inline-->
-		<ul>
+		<ul id="links">
 			<!--took out Home-->
 			<li><a href="https://www.linkedin.com/profile/view?id=8354904&goback=%2Enpp_james*5mistalski%2F2%2F96b%2F20">
 				About <strong>Me</strong></a></li><!--links to your linked in page-->
-			<!--<li><a id="sendMail" style="text-decoration: underline" onclick="sendMail()">Contact</a></li>-->
+			<li><a id="sendMail" style="text-decoration: underline" onclick="sendMail()">Contact</a></li>
 			<!--opens mail client and provides TO: email address which is set in javascript above-->
-
 		</ul>
+			<div id="outputDiv">james.mistalski@gmail.com</div>
 			<a id="goldA" href="http://www.easyconversiontools.com" target="_blank">&copy;Gold Asterisk</a>
 
 		</div>

@@ -15,24 +15,43 @@ body { /*Left untouched good color choice */
 	margin-top: 15px;
 	margin-left: 15px;
 }
+#facts li {
+	margin-left: 300px;
+}
 #imgDiv {/* added a frame to your picture */
 	background-color: yellow;
 	height: 320px;
 	width: 320px;
 	border:2px solid gainsboro;
+	margin-left: auto;
+	margin-right: auto;
 }
 img{ /* setting the img in the frame */
 	margin-top: 10px;
 	margin-left: 10px;
 }
-#navbar li {/*Changed this list to horizontal*/
-	display: inline-block;
-	margin-left: 100px;
+#links {
+	margin-left: 780px;
 }
-h2 {/*left untouched*/
+#links li {/*Changed this list to horizontal*/
+	display: inline-block;
+	margin-left: 50px;
+}
+h2 {/*text centered*/
 	font-family: sans-serif;
+	text-align: center;
+}
+#outputDiv {
+	background-color: yellow;
+	border: 2px solid #c0c0c0;
+	margin-left: 800px;
+	margin-right: 800px;
+	text-align: center;
+	display: none;
 }
 #goldA {
-	margin-left: 1200px;
+	display: block;
+	margin-top: 375px;
+	margin-left: 900px;
 }
-/* no styling for p */
+/* no styling for p or p styled inline */
