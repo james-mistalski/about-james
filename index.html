@@ -6,16 +6,17 @@
 			<script type="text/javascript">
 				var myWin;
 				function sendMail() {
+					<!--found this on stackoverflow-->
 					<!--insert your email in place of james@email.com-->
 					myWin = window.open('mailto:james@email.com');
-					<!--found this on stackoverflow-->
 					myWin.close();
 				}
 			</script>
 		</head>
 		<body>
 		<!--rearranged some things on the page and did some overall styling-->
-		<h1 id="heading">James Mistalski</h1><!--created and styled/ wanted to emphasize your name-->
+		<div id="headingDiv"><h1 id="heading">James Mistalski</h1></div>
+		<!--created and styled/ wanted to emphasize your name-->
 		<p style="color:darkolivegreen; font-size: 30px">Fun Facts:</p>
 		<ul id="facts"><!-- Did some text styling and increased its size-->
 			<li>Born in Detroit, MI</li>
@@ -24,18 +25,19 @@
 		</ul>
 
 		<h2>A face only a mother could love!</h2><!--This was quite humerous-->
-		<img height=300px width=300px src="PHP%20Storm%20first%20photo%20to%20use.jpg" />
+		<div id="imgDiv"><img height=300px width=300px src="PHP%20Storm%20first%20photo%20to%20use.jpg" /></div>
 
 		<div id="navbar"><!--moved navbar down to the bottom and made it inline-->
 		<ul>
-			<li><a href="http://www.homedepot.com" target="_blank">Home</a></li>
+			<!--took out Home-->
 			<li><a href="https://www.linkedin.com/profile/view?id=8354904&goback=%2Enpp_james*5mistalski%2F2%2F96b%2F20">
 				About <strong>Me</strong></a></li><!--links to your linked in page-->
-			<li><a href="" onclick="sendMail()">Contact</a></li>
+			<!--<li><a id="sendMail" style="text-decoration: underline" onclick="sendMail()">Contact</a></li>-->
 			<!--opens mail client and provides TO: email address which is set in javascript above-->
 
 		</ul>
-			<a href="http//www.easyconversiontools.com">&copy; Copyright Gold Asterisk 2014</a>
+			<a id="goldA" href="http://www.easyconversiontools.com" target="_blank">&copy;Gold Asterisk</a>
+
 		</div>
 		</body>
 	</html>

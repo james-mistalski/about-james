@@ -1,21 +1,38 @@
 body { /*Left untouched good color choice */
 	background-color:#C0C0C0;
 }
+#headingDiv {
+	background-color: yellow;
+	margin-left: auto;
+	margin-right: auto;
+}
 #heading{/*added element h1 and styled*/
 	font-size: 45px;
+	text-align: center;
 }
 #facts {/* ul id=facts contents were styled*/
 	font-size: 30px;
 	margin-top: 15px;
 	margin-left: 15px;
 }
+#imgDiv {/* added a frame to your picture */
+	background-color: yellow;
+	height: 320px;
+	width: 320px;
+	border:2px solid gainsboro;
+}
+img{ /* setting the img in the frame */
+	margin-top: 10px;
+	margin-left: 10px;
+}
 #navbar li {/*Changed this list to horizontal*/
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 100px;
 }
 h2 {/*left untouched*/
 	font-family: sans-serif;
 }
-p {/* completed as was found incomplete*/
-	font-family: sans-serif;
+#goldA {
+	margin-left: 1200px;
 }
+/* no styling for p */
