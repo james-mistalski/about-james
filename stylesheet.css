@@ -1,21 +1,21 @@
-body {
+body { /*Left untouched good color choice */
 	background-color:#C0C0C0;
 }
-#heading{
+#heading{/*added element h1 and styled*/
 	font-size: 45px;
 }
-#facts {
+#facts {/* ul id=facts contents were styled*/
 	font-size: 30px;
 	margin-top: 15px;
 	margin-left: 15px;
 }
-#navbar li {
+#navbar li {/*Changed this list to horizontal*/
 	display: inline-block;
 	margin-left: 20px;
 }
-h2 {
+h2 {/*left untouched*/
 	font-family: sans-serif;
 }
-p {
+p {/* completed as was found incomplete*/
 	font-family: sans-serif;
 }
