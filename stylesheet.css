@@ -30,7 +30,7 @@ img{ /* setting the img in the frame */
 	margin-top: 10px;
 	margin-left: 10px;
 }
-#links {
+#links {/*pushes links to the right*/
 	margin-left: 780px;
 }
 #links li {/*Changed this list to horizontal*/
